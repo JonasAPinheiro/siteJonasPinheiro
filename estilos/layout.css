@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header{
+    height: 25%;
+    background-color: #21242a;
+}
+
+header figure{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 10px;
+}
+
+
+header img{
+    height: 150px;
+    width: auto;
+}
+
+header figcaption{
+    font-size: 40px;
+    font-style: italic;
+    color: #19a0c4;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #19a0c4;
+    gap: 100px;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main section{
+    display:flex;
+    flex-direction: row; 
+}
+
+main section #textos_article{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+}
+
+main section figure{
+    height: 100%;
+    width: 30%;
+}
+
+main section img{
+    max-width: 100%;
+}
+
+main section article{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+#textos_article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+h3{
+    text-align: center;
+}
+
+#viagens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#viagens a{
+    width: 30%;
+    border-radius: 20px;
+}
+
+#viagens button{
+    border-radius: 20px;
+}
+
+#viagem{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
